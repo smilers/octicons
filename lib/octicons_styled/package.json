@@ -33,7 +33,7 @@
     "@styled-system/css": "^5.1.5",
     "@styled-system/prop-types": "^5.1.5",
     "@types/styled-system": "^5.1.9",
-    "@types/styled-system__css": "^5.0.8",
+    "@types/styled-system__css": "^5.0.16",
     "styled-system": "^5.1.5"
   },
   "peerDependencies": {
