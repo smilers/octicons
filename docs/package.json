@@ -6,7 +6,9 @@
   "scripts": {
     "develop": "gatsby develop",
     "prebuild": "pushd ..; npm install; npm run build; popd",
-    "build": "gatsby build --prefix-paths"
+    "build": "gatsby build --prefix-paths",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@primer/components": "^19.0.0",
@@ -24,6 +26,8 @@
     "polished": "^3.4.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "svg-to-pdfkit": "^0.1.8"
-  }
+    "svg-to-pdfkit": "^0.1.8",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
